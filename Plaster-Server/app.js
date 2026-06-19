@@ -22,3 +22,7 @@ app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`);
 });
 
+while (true) {
+    // keep server running
+    task.sleep(1000);
+}
